@@ -9,7 +9,7 @@ Feature: Grounds
 
   @priority-high
   Scenario: Message "Empty grounds" is displayed after 30 coffees are taken
-    When I take "30" coffees
+    When I take "50" coffees
     Then message "Empty grounds" should be displayed
 
   @priority-medium
